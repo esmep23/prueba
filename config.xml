@@ -2,10 +2,10 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "ec.pocket.interlab"
-		versionCode="7.0.1"
-		version   = "7">
+		versionCode="1.0.0"
+		version   = "1">
 		<name>
-			Interlab
+			HG
 		</name>
 		<description>
 		</description>
@@ -18,7 +18,7 @@
 		<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 		<gap:plugin name="org.apache.cordova.statusbar" source="npm" />-->
 		<!--/ios-->
-    	<preference name="phonegap-version" value="cli-6.3.0" />
+    		<preference name="phonegap-version" value="cli-6.3.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
