@@ -18,3 +18,8 @@
 		</author>
 
 </widget>
+
+<access origin="*" />
+		<allow-intent href="*" />
+		<allow-navigation href="*" />
+		<content src="index.html" />
