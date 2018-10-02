@@ -5,8 +5,12 @@
 	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
     //alert(2);
+      document.addEventListener("deviceready", onDeviceReady, false);
+
+	function onDeviceReady() {
+	    window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
+	}
       
-      window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
 
     </script>
 </head>
