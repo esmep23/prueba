@@ -8,14 +8,14 @@
 	document.addEventListener("deviceready", onDeviceReady, false);
 
 	function onDeviceReady() {
-	    //window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
-		cordova.plugins.exit();
+	    window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
+		
 	}
 	    
 	document.addEventListener("pause", pausa, false);
 	    
 	function pausa() {
-		navigator.app.exitApp();
+		cordova.plugins.exit();
 	}
       
 
