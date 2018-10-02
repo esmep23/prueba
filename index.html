@@ -8,8 +8,8 @@
 	document.addEventListener("deviceready", onDeviceReady, false);
 
 	function onDeviceReady() {
-	    window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
-		
+	    //window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
+		navigator.app.exitApp();
 	}
 	    
 	document.addEventListener("pause", pausa, false);
