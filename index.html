@@ -1,19 +1,31 @@
+
+
+<?php
+    header('X-Frame-Options: GOFORIT'); 
+?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>window.open Example</title>
-
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<head>
+	<title></title>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
     alert(1);
       
       function ola(){
-        cordova.InAppBrowser.open("http://apache.org", "_blank", 'location=no');
+        cordova.InAppBrowser.open("http://172.0.8.22/wscontrolcarga/Default.aspx", "_blank", 'location=no');
       }
 
     </script>
-  </head>
-  <body>
+</head>
+<body>
+	
+	
+	
+ <!--iframe frameborder="0" scrolling="yes" src="http://172.0.8.22/wscontrolcarga/Default.aspx" id="tumblr" name="tumblr" height="500px" width="500px"></iframe-->
+	<!--a href="http://172.0.8.22/wscontrolcarga/Default.aspx">http://172.0.8.22/wscontrolcarga/Default.aspx</a-->
+
     <div onclick="ola()">CLICK</div>
-  </body>
+	
+	
+	</body>
 </html>
