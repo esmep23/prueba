@@ -23,6 +23,5 @@
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
 	<content src="index.html" />
-	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 
 	</widget>
