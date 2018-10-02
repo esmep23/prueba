@@ -5,11 +5,15 @@
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
-
-    cordova.InAppBrowser.open("http://apache.org", "_blank", 'location=no');
+    alert(1);
+      
+      function ola(){
+        cordova.InAppBrowser.open("http://apache.org", "_blank", 'location=no');
+      }
 
     </script>
   </head>
   <body>
+    <div onclick="ola()">CLICK</div>
   </body>
 </html>
