@@ -36,6 +36,8 @@
 	<icon src="imagenes/Icon-180.png" gap:platform="ios" width="180" height="180" />
 	
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+	<gap:plugin name="cordova-plugin-exit" source="npm"/>
+	
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
