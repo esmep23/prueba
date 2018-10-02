@@ -18,7 +18,7 @@
 	  </author>
 	<gap:platform name="ios" />
 	
-	<plugin name="cordova-plugin-inappbrowser"/>
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
