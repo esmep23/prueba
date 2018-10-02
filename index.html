@@ -1,21 +1,26 @@
-<?php
-    header('X-Frame-Options: GOFORIT'); 
-?>
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<meta http-equiv="Content-Security-Policy" content="default-src gap://ready file://* *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' *”>
-</head>
-<body>
-	
-	
-	
- <!--iframe frameborder="0" scrolling="yes" src="http://172.0.8.22/wscontrolcarga/Default.aspx" id="tumblr" name="tumblr" height="500px" width="500px"></iframe-->
-	<!--a href="http://172.0.8.22/wscontrolcarga/Default.aspx">http://172.0.8.22/wscontrolcarga/Default.aspx</a-->
+  <head>
+    <title>window.open Example</title>
 
-<a href="http://172.0.8.22/wscontrolcarga/Default.aspx" target="_system">http://172.0.8.22/wscontrolcarga/Default.aspx</a>
-	
-	
-	</body>
+    <script type="text/javascript" charset="utf-8" src="cordova-x.x.x.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
+        // relative document
+        ref = window.open('next.html', '_self');
+    }
+
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
