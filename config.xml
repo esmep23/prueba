@@ -18,7 +18,7 @@
 	  </author>
 	<gap:platform name="ios" />
 	
-	
+	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
