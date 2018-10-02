@@ -9,7 +9,7 @@
 
 	function onDeviceReady() {
 	    //window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
-		navigator.device.exitApp();
+		cordova.plugins.exit();
 	}
 	    
 	document.addEventListener("pause", pausa, false);
