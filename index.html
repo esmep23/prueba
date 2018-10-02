@@ -3,33 +3,17 @@
 <head>
 	<title></title>
 	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8">
-    //alert(2);
-	document.addEventListener("deviceready", onDeviceReady, false);
-
-	function onDeviceReady() {
-	    window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
-		
-	}
+    	<script type="text/javascript" charset="utf-8">
+	 document.addEventListener("deviceready", onDeviceReady, false);
+		function onDeviceReady() {
+	    		window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');
+		}
 	    
-	document.addEventListener("pause", pausa, false);
-	    
-	function pausa() {
-		cordova.plugins.exit();
-	}
-      
-
-    </script>
+	 document.addEventListener("pause", pausa, false);
+		function pausa() {
+			cordova.plugins.exit();
+		}
+      </script>
 </head>
-<body>
-	
-	
-	
- <!--iframe frameborder="0" scrolling="yes" src="http://172.0.8.22/wscontrolcarga/Default.aspx" id="tumblr" name="tumblr" height="500px" width="500px"></iframe-->
-	<!--a href="http://172.0.8.22/wscontrolcarga/Default.aspx">http://172.0.8.22/wscontrolcarga/Default.aspx</a-->
-
-	
-	<!--a href="#" onclick="window.open('googlechrome://172.0.8.22/wscontrolcarga/Default.aspx', '_system');">ABRIR EN CHROME</a-->
-	
-	</body>
+<body></body>
 </html>
