@@ -16,7 +16,12 @@
   	  <author href="http://pocket.ec/" email="epulgar@pocket.ec">
 		Epulgar
 	  </author>
-	<gap:plugin name="org.apache.cordova.core.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
+	<gap:platform name="ios" />
+	
+	<feature name="InAppBrowser">
+		    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+		</feature>-->
 
 	<access origin="*" />
 	<allow-intent href="*" />
