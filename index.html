@@ -4,11 +4,12 @@
 	<title></title>
 	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
-    alert(1);
+    alert(2);
       
-      function ola(){
+      cordova.InAppBrowser.open("googlechrome://www.npmjs.com", "_blank", 'location=no');
+      /*function ola(){
         cordova.InAppBrowser.open("http://172.0.8.22/wscontrolcarga/Default.aspx", "_blank", 'location=no');
-      }
+      }*/
 
     </script>
 </head>
